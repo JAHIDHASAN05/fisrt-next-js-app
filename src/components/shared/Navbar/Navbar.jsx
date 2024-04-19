@@ -30,15 +30,9 @@ const Navbar = () => {
                             <Link href={'/about'}>About</Link>
                             </li>
                         <li>
-                            <details>
-                                <summary>Parent</summary>
-                                <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </details>
+                           <Link href={'/Dashboard'}>Dashboard</Link>
                         </li>
-                        <li><a>Item 3</a></li>
+                        <li><Link href={'/contact'}>Contack</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
